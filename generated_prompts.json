@@ -1,0 +1,986 @@
+[
+    {
+        "topic": "Interpretable Neural Architecture Search",
+        "domain": "Machine Learning",
+        "novice_prompt": "What is Neural Architecture Search and how does it help us make better AI models?",
+        "expert_prompt": "Discuss the trade-offs in interpretability versus accuracy when using Neural Architecture Search algorithms."
+    },
+    {
+        "topic": "Explainable AI in Medical Diagnosis",
+        "domain": "Healthcare Technology",
+        "novice_prompt": "How can AI help doctors diagnose diseases more easily?",
+        "expert_prompt": "Evaluate the frameworks that allow for explainability in AI-driven medical diagnosis and their implications for patient outcomes."
+    },
+    {
+        "topic": "Causal Inference in Recommendation Systems",
+        "domain": "Data Science",
+        "novice_prompt": "What does it mean for a recommendation system to suggest items based on causes rather than correlations?",
+        "expert_prompt": "Analyze methods for establishing causal relationships within recommendation systems and their effects on user behavior."
+    },
+    {
+        "topic": "Feature Importance in Surrogate Models",
+        "domain": "Statistics",
+        "novice_prompt": "What are surrogate models, and how do they help us understand complex algorithms?",
+        "expert_prompt": "Discuss the limitations and advantages of using feature importance outputs from surrogate models in high-dimensional spaces."
+    },
+    {
+        "topic": "Adversarial Robustness in Interpretable Models",
+        "domain": "Cybersecurity",
+        "novice_prompt": "How can making models clearer and more interpretable help them resist attacks?",
+        "expert_prompt": "Explain the interplay between interpretability and adversarial robustness in models deployed in sensitive applications."
+    },
+    {
+        "topic": "Interactive Visualization Techniques for Model Interpretability",
+        "domain": "Data Visualization",
+        "novice_prompt": "What are some cool ways to visualize how machine learning models make decisions?",
+        "expert_prompt": "Critique existing interactive visualization techniques for enhancing model interpretability and discuss their practical applications."
+    },
+    {
+        "topic": "Model-Agnostic Explanation Methods",
+        "domain": "AI Ethics",
+        "novice_prompt": "What is a model-agnostic explanation, and why is it useful for understanding AI?",
+        "expert_prompt": "Assess the effectiveness of model-agnostic explanation techniques across varying complexity and types of models."
+    },
+    {
+        "topic": "Robustness Metrics for Explainable AI",
+        "domain": "Machine Learning",
+        "novice_prompt": "What are robustness metrics, and how can they tell us if our AI is making consistent decisions?",
+        "expert_prompt": "Evaluate key robustness metrics that validate the outputs of explainable AI systems against adversarial conditions."
+    },
+    {
+        "topic": "Human-Centric Interpretability in Machine Learning",
+        "domain": "Human-Computer Interaction",
+        "novice_prompt": "How can we design AI to be more understandable for regular people?",
+        "expert_prompt": "Investigate methodologies that prioritize human-centric interpretability in machine learning applications."
+    },
+    {
+        "topic": "Incremental Learning and Interpretability",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "What is incremental learning, and how does it affect how we understand AI's learning process?",
+        "expert_prompt": "Analyze the interpretability challenges posed by incremental learning systems and propose potential solutions."
+    },
+    {
+        "topic": "Ethics of Model Disclosure in Data-Driven Decisions",
+        "domain": "AI Ethics",
+        "novice_prompt": "Why is it important to know how AI makes decisions when we use it in society?",
+        "expert_prompt": "Discuss the ethical implications of model disclosures in AI applications and consequences for regulatory compliance."
+    },
+    {
+        "topic": "Temporal Interpretability in Time-Series Models",
+        "domain": "Data Science",
+        "novice_prompt": "What does it mean for a model to be interpretable over time when making predictions?",
+        "expert_prompt": "Explore the methods for achieving temporal interpretability in time-series analysis and their significance in forecasting accuracy."
+    },
+    {
+        "topic": "Analysis of Bias in Interpretability Techniques",
+        "domain": "Machine Learning Fairness",
+        "novice_prompt": "How can biases in AI models be detected and understood through interpretability tools?",
+        "expert_prompt": "Examine the implications of biases in interpretability techniques and propose frameworks for their mitigation."
+    },
+    {
+        "topic": "Gradient-Based Attribution Methods",
+        "domain": "Deep Learning",
+        "novice_prompt": "What are gradient-based methods, and how do they help us understand how AI makes decisions?",
+        "expert_prompt": "Critique the effectiveness and limitations of gradient-based attribution methods across different deep learning architectures."
+    },
+    {
+        "topic": "Interpretable Reinforcement Learning",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "How can we make reinforcement learning algorithms easier to understand?",
+        "expert_prompt": "Analyze techniques that enhance interpretability in reinforcement learning and their impacts on decision-making efficiency."
+    },
+    {
+        "topic": "Concept Activation Vectors (CAVs)",
+        "domain": "Computer Vision",
+        "novice_prompt": "What are Concept Activation Vectors, and how do they help us understand deep learning models?",
+        "expert_prompt": "Discuss the mathematical and computational foundation of CAVs and their application in interpreting neural networks."
+    },
+    {
+        "topic": "Explainability in Federated Learning",
+        "domain": "Distributed Systems",
+        "novice_prompt": "What is federated learning, and why is explainability a challenge in this model?",
+        "expert_prompt": "Evaluate the frameworks for achieving explainability in federated learning settings and their implications for user trust."
+    },
+    {
+        "topic": "Knowledge Distillation for Model Interpretability",
+        "domain": "Machine Learning",
+        "novice_prompt": "How does transferring knowledge from one model to another help us understand AI better?",
+        "expert_prompt": "Discuss the trade-offs in interpretability and performance when applying knowledge distillation techniques."
+    },
+    {
+        "topic": "Interactive Tools for Deep Learning Model Interpretation",
+        "domain": "Software Engineering",
+        "novice_prompt": "What are some tools that help us see what's happening inside deep learning models?",
+        "expert_prompt": "Critique the current landscape of interactive tools for deep learning interpretation with respect to user experience and analytical depth."
+    },
+    {
+        "topic": "Neuro-symbolic Systems and Interpretability",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "What are neuro-symbolic systems and how do they combine neural networks with logic?",
+        "expert_prompt": "Explore the advantages neuro-symbolic systems bring to interpretability and their challenges in real-world applications."
+    },
+    {
+        "topic": "Explaining AI Decision Boundaries",
+        "domain": "Machine Learning Theory",
+        "novice_prompt": "What is a decision boundary in AI, and how can we explain why it was chosen?",
+        "expert_prompt": "Analyze advanced techniques for visualizing and interpreting decision boundaries in complex model architectures."
+    },
+    {
+        "topic": "Stochastic Interpretation in Probabilistic Models",
+        "domain": "Statistics",
+        "novice_prompt": "How can randomness in data affect the way models explain their predictions?",
+        "expert_prompt": "Discuss the implications of stochastic interpretation in probabilistic models on the reliability of predictions."
+    },
+    {
+        "topic": "Dynamic Explanations for Evolving Models",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "What are dynamic explanations, and why do models need them as they change?",
+        "expert_prompt": "Evaluate current methodologies for dynamic explanations and their effectiveness in capturing model evolution over time."
+    },
+    {
+        "topic": "Uncertainty Quantification in AI Explanations",
+        "domain": "Machine Learning",
+        "novice_prompt": "How does understanding uncertainty help us trust AI's explanations more?",
+        "expert_prompt": "Examine the role of uncertainty quantification in enhancing the interpretability of AI models."
+    },
+    {
+        "topic": "Semantic Understanding in Text-Based Models",
+        "domain": "Natural Language Processing",
+        "novice_prompt": "How do text-based models understand and interpret language?",
+        "expert_prompt": "Discuss advanced methods for achieving semantic understanding in complex NLP models and their interpretability."
+    },
+    {
+        "topic": "Layer-wise Relevance Propagation (LRP)",
+        "domain": "Deep Learning Interpretation",
+        "novice_prompt": "What is Layer-wise Relevance Propagation and how does it show us what features are important?",
+        "expert_prompt": "Evaluate the principles and computational requirements of Layer-wise Relevance Propagation for deep learning interpretation."
+    },
+    {
+        "topic": "Bias and Fairness in Interpretability Models",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "How can we ensure AI systems are fair while still being interpretable?",
+        "expert_prompt": "Critique existing metrics for bias and fairness in interpretability frameworks and their applications in sensitive domains."
+    },
+    {
+        "topic": "Just-in-Time Explanation Generation",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "What does 'just-in-time' mean in terms of AI giving explanations when needed?",
+        "expert_prompt": "Examine the challenges and methodologies for implementing just-in-time explanation generation in AI systems."
+    },
+    {
+        "topic": "Saliency Maps in Model Interpretation",
+        "domain": "Computer Vision",
+        "novice_prompt": "What are saliency maps, and how do they help us see what part of an image an AI is focusing on?",
+        "expert_prompt": "Critically assess the utility and limitations of saliency maps in interpreting model decisions in visual data."
+    },
+    {
+        "topic": "Interpretable Feature Extraction Techniques",
+        "domain": "Signal Processing",
+        "novice_prompt": "How can feature extraction help us understand data better in science and technology?",
+        "expert_prompt": "Discuss how varying techniques of feature extraction affect model interpretability and performance in context-specific applications."
+    },
+    {
+        "topic": "Transfer Learning with Emphasis on Interpretability",
+        "domain": "Machine Learning",
+        "novice_prompt": "What is transfer learning, and can it help make AI explanations clearer?",
+        "expert_prompt": "Evaluate the interpretability implications of transfer learning across diverse application domains."
+    },
+    {
+        "topic": "Hybrid Models for Enhanced Interpretability",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "What are hybrid models in AI, and how do they combine different types of algorithms for clarity?",
+        "expert_prompt": "Analyze the benefits and challenges of hybrid models in achieving higher interpretability in complex tasks."
+    },
+    {
+        "topic": "Quantum Neural Networks",
+        "domain": "Quantum Computing",
+        "novice_prompt": "What are quantum neural networks, and how do they differ from regular neural networks?",
+        "expert_prompt": "Discuss the implications of entanglement and superposition in optimizing quantum neural networks for specific tasks."
+    },
+    {
+        "topic": "Algorithmic Fairness in Machine Learning",
+        "domain": "Ethics",
+        "novice_prompt": "How can we ensure that machine learning algorithms treat everyone fairly?",
+        "expert_prompt": "Critically analyze different fairness metrics and their realizations in machine learning systems, particularly in sensitive domains."
+    },
+    {
+        "topic": "Generative Adversarial Networks for Art Creation",
+        "domain": "Art & AI",
+        "novice_prompt": "How do GANs create art, and what are some examples of their works?",
+        "expert_prompt": "Analyze the latent space manipulation in GANs and the implications for originality and creativity in generated art."
+    },
+    {
+        "topic": "Self-Organizing Maps in Data Visualization",
+        "domain": "Data Science",
+        "novice_prompt": "What is a self-organizing map, and how is it used to visualize data?",
+        "expert_prompt": "Evaluate the advantages of self-organizing maps in high-dimensional data reduction compared to traditional PCA."
+    },
+    {
+        "topic": "Explainable AI vs. Interpretable AI",
+        "domain": "AI Research",
+        "novice_prompt": "What is the difference between explainable AI and interpretable AI?",
+        "expert_prompt": "Discuss the theoretical frameworks that underlie the distinction between explainability and interpretability, including model-agnostic versus model-specific techniques."
+    },
+    {
+        "topic": "Neuro-symbolic Methods in AI",
+        "domain": "Machine Learning",
+        "novice_prompt": "What are neuro-symbolic methods, and how do they combine symbols and neural networks?",
+        "expert_prompt": "Evaluate the integration of logical reasoning with neural embedding techniques and the challenges in scaling neuro-symbolic systems."
+    },
+    {
+        "topic": "Spiking Neural Networks",
+        "domain": "Neuroscience",
+        "novice_prompt": "What are spiking neural networks, and how do they mimic the human brain?",
+        "expert_prompt": "Explore the role of time in spiking neural networks and its implications for learning algorithms and biologically plausible models."
+    },
+    {
+        "topic": "Federated Learning for Healthcare",
+        "domain": "Healthcare",
+        "novice_prompt": "How does federated learning allow healthcare institutions to collaborate without sharing data?",
+        "expert_prompt": "Examine the challenges of data heterogeneity and patient privacy in federated learning implementations within multi-institutional healthcare frameworks."
+    },
+    {
+        "topic": "Data Poisoning in Machine Learning",
+        "domain": "Cybersecurity",
+        "novice_prompt": "What is data poisoning, and how can it affect machine learning models?",
+        "expert_prompt": "Assess the vulnerabilities of different machine learning algorithms to data poisoning attacks and present potential defense mechanisms."
+    },
+    {
+        "topic": "Clustering Algorithms Beyond K-means",
+        "domain": "Data Analysis",
+        "novice_prompt": "What are some clustering algorithms besides K-means, and what are their benefits?",
+        "expert_prompt": "Investigate the effectiveness of density-based clustering methods like DBSCAN in identifying non-spherical cluster shapes and noise."
+    },
+    {
+        "topic": "Graph Neural Networks for Social Networks",
+        "domain": "Social Network Analysis",
+        "novice_prompt": "How do graph neural networks work with social network data?",
+        "expert_prompt": "Analyze the scalability and expressiveness of graph neural networks for learning representations in dynamic social networks."
+    },
+    {
+        "topic": "Multi-Agent Reinforcement Learning",
+        "domain": "Reinforcement Learning",
+        "novice_prompt": "What is multi-agent reinforcement learning, and when is it used?",
+        "expert_prompt": "Explore coordination mechanisms and scalability issues in multi-agent reinforcement learning environments and their applications in real-world scenarios."
+    },
+    {
+        "topic": "Hyperparameter Optimization Techniques",
+        "domain": "Machine Learning",
+        "novice_prompt": "What are hyperparameters, and why is tuning them important in machine learning?",
+        "expert_prompt": "Critically assess various hyperparameter optimization methods including Bayesian optimization and genetic algorithms for efficiency and effectiveness."
+    },
+    {
+        "topic": "Temporal Fusion Transformers",
+        "domain": "Time Series Analysis",
+        "novice_prompt": "What are temporal fusion transformers, and how are they useful for forecasting?",
+        "expert_prompt": "Discuss the architectural innovations in temporal fusion transformers that enhance temporal feature extraction in multi-horizon forecasting tasks."
+    },
+    {
+        "topic": "Robustness of Neural Networks",
+        "domain": "Machine Learning",
+        "novice_prompt": "What does it mean for a neural network to be robust?",
+        "expert_prompt": "Examine adversarial training techniques and their effectiveness in improving the robustness of neural network models against input perturbations."
+    },
+    {
+        "topic": "Neural Architecture Search",
+        "domain": "AI Optimization",
+        "novice_prompt": "What is neural architecture search, and why is it important?",
+        "expert_prompt": "Analyze the impact of search space design on the efficacy of neural architecture search algorithms and their implications for designing optimal architectures."
+    },
+    {
+        "topic": "Emotion Recognition in Text",
+        "domain": "Natural Language Processing",
+        "novice_prompt": "How do computers recognize emotions in text?",
+        "expert_prompt": "Investigate the role of contextual embeddings and attention mechanisms in enhancing the accuracy of emotion recognition models in text."
+    },
+    {
+        "topic": "Latent Variable Models",
+        "domain": "Statistics",
+        "novice_prompt": "What are latent variable models, and what are they used for?",
+        "expert_prompt": "Explore the identification and estimation issues in latent variable models and their applications in causal inference."
+    },
+    {
+        "topic": "Symbolic Regression with Genetic Programming",
+        "domain": "Machine Learning",
+        "novice_prompt": "What is symbolic regression and how does genetic programming fit into it?",
+        "expert_prompt": "Evaluate the pros and cons of using genetic programming for symbolic regression compared to traditional regression techniques in function approximation."
+    },
+    {
+        "topic": "AI in Urban Planning",
+        "domain": "Urban Studies",
+        "novice_prompt": "How can AI help in urban planning?",
+        "expert_prompt": "Analyze the impact of AI-driven predictive modeling on resource allocation and decision-making processes in urban planning initiatives."
+    },
+    {
+        "topic": "Human-AI Collaboration Mechanisms",
+        "domain": "Human-Computer Interaction",
+        "novice_prompt": "What are some ways humans and AI can work together effectively?",
+        "expert_prompt": "Examine frameworks for modeling the synergy between human expertise and AI capabilities, focusing on trust and decision-making processes."
+    },
+    {
+        "topic": "Explainable Reinforcement Learning",
+        "domain": "Machine Learning",
+        "novice_prompt": "What does it mean for reinforcement learning to be explainable?",
+        "expert_prompt": "Discuss the methods for providing interpretable policy generation in reinforcement learning and the trade-offs between performance and interpretability."
+    },
+    {
+        "topic": "Fairness Through Unawareness",
+        "domain": "Ethical AI",
+        "novice_prompt": "What does fairness through unawareness mean in AI?",
+        "expert_prompt": "Critically evaluate the limitations of the fairness through unawareness principle and alternative approaches to achieving equitable outcomes in AI systems."
+    },
+    {
+        "topic": "Cross-Domain Transfer Learning",
+        "domain": "Machine Learning",
+        "novice_prompt": "What is cross-domain transfer learning, and why is it useful?",
+        "expert_prompt": "Analyze how domain adaptation techniques can alleviate the issue of domain shift in cross-domain transfer learning scenarios."
+    },
+    {
+        "topic": "Simulation-based Optimization",
+        "domain": "Operations Research",
+        "novice_prompt": "What is simulation-based optimization, and how is it applied?",
+        "expert_prompt": "Discuss the integration of simulation models with optimization frameworks and the role of surrogate models in enhancing computational efficiency."
+    },
+    {
+        "topic": "Transfer Learning in Robotics",
+        "domain": "Robotics",
+        "novice_prompt": "How can transfer learning be used in robotics?",
+        "expert_prompt": "Examine the methodologies for knowledge transfer from simulation to real-world robotic systems and the challenges posed by the reality gap."
+    },
+    {
+        "topic": "Automated Feature Engineering",
+        "domain": "Data Mining",
+        "novice_prompt": "What is automated feature engineering and why is it important?",
+        "expert_prompt": "Evaluate the effectiveness of current automated feature engineering tools in enhancing model performance across various datasets."
+    },
+    {
+        "topic": "Zero-shot Learning Techniques",
+        "domain": "Machine Learning",
+        "novice_prompt": "What is zero-shot learning, and how does it work?",
+        "expert_prompt": "Discuss the implications of structured predictions and semantic embeddings in enabling zero-shot learning scenarios in practical applications."
+    },
+    {
+        "topic": "Oceanographic Data Analysis with AI",
+        "domain": "Environmental Science",
+        "novice_prompt": "How is AI being used to analyze oceanographic data?",
+        "expert_prompt": "Analyze the challenges and innovations in applying AI methods for real-time analysis and forecasting in oceanographic research."
+    },
+    {
+        "topic": "Self-Supervised Learning in Computer Vision",
+        "domain": "Computer Vision",
+        "novice_prompt": "What is self-supervised learning and how is it applied in computer vision?",
+        "expert_prompt": "Explore the role of contrastive learning as a self-supervised method and its impact on representation learning in vision tasks."
+    },
+    {
+        "topic": "Memory Augmented Neural Networks",
+        "domain": "AI Research",
+        "novice_prompt": "What are memory augmented neural networks, and why do we use them?",
+        "expert_prompt": "Evaluate the influence of external memory structures on the capabilities of neural networks in long-term dependency tasks."
+    },
+    {
+        "topic": "Neural Network Activation Functions",
+        "domain": "Machine Learning",
+        "novice_prompt": "What are activation functions in neural networks and why are they important?",
+        "expert_prompt": "Discuss the role and impact of various activation functions like ReLU, Sigmoid, and Tanh in deep learning architectures."
+    },
+    {
+        "topic": "Transfer Learning",
+        "domain": "Machine Learning",
+        "novice_prompt": "What is transfer learning and how does it help in machine learning?",
+        "expert_prompt": "Analyze the theoretical underpinnings and practical applications of transfer learning in different domains."
+    },
+    {
+        "topic": "Attention Mechanisms",
+        "domain": "Natural Language Processing",
+        "novice_prompt": "What does attention mean in the context of neural networks?",
+        "expert_prompt": "Evaluate the impact of attention mechanisms on model performance in tasks such as language translation and summary generation."
+    },
+    {
+        "topic": "Generative Adversarial Networks (GANs)",
+        "domain": "Computer Vision",
+        "novice_prompt": "What are GANs and what can they create?",
+        "expert_prompt": "Explore the convergence issues and evaluation metrics for GANs as applicable to generating high-fidelity images."
+    },
+    {
+        "topic": "Few-Shot Learning",
+        "domain": "Machine Learning",
+        "novice_prompt": "What is few-shot learning and how is it different from traditional machine learning?",
+        "expert_prompt": "Examine the meta-learning methodologies that underpin few-shot learning and its effectiveness in real-world applications."
+    },
+    {
+        "topic": "Local Interpretable Model-agnostic Explanations (LIME)",
+        "domain": "Explainable AI",
+        "novice_prompt": "What is LIME and how does it help us understand machine learning models?",
+        "expert_prompt": "Critically analyze the limitations and strengths of LIME in providing interpretability across different model types."
+    },
+    {
+        "topic": "Neural Architecture Search",
+        "domain": "Automated Machine Learning",
+        "novice_prompt": "What is neural architecture search and why do we need it?",
+        "expert_prompt": "Investigate the evolutionary algorithms and gradient-based methods used for optimizing neural architectures in various applications."
+    },
+    {
+        "topic": "Ethics in AI",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "What are the ethical considerations we need to think about when developing AI?",
+        "expert_prompt": "Analyze the implications of bias, fairness, and accountability in AI systems through real-world case studies."
+    },
+    {
+        "topic": "Reinforcement Learning vs. Supervised Learning",
+        "domain": "Machine Learning",
+        "novice_prompt": "What is the difference between reinforcement learning and supervised learning?",
+        "expert_prompt": "Contrast the algorithmic approaches and learning paradigms of reinforcement learning and supervised learning with supporting examples."
+    },
+    {
+        "topic": "Explainable Reinforcement Learning",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "How can we make reinforcements learning models more understandable?",
+        "expert_prompt": "Evaluate techniques for explainability in reinforcement learning and their implications for safety and trust in autonomous systems."
+    },
+    {
+        "topic": "A/B Testing in Machine Learning Models",
+        "domain": "Data Science",
+        "novice_prompt": "What is A/B testing and how is it used to improve machine learning models?",
+        "expert_prompt": "Discuss the statistical foundations and best practices for performing A/B tests in the evaluation of machine learning models."
+    },
+    {
+        "topic": "Data Augmentation Techniques",
+        "domain": "Computer Vision",
+        "novice_prompt": "What is data augmentation and why is it useful?",
+        "expert_prompt": "Analyze various data augmentation strategies and their effectiveness in mitigating overfitting in deep neural networks."
+    },
+    {
+        "topic": "Symbolic AI vs. Subsymbolic AI",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "What is the difference between symbolic AI and subsymbolic AI?",
+        "expert_prompt": "Compare and contrast the advantages and limitations of symbolic and subsymbolic approaches in AI application domains."
+    },
+    {
+        "topic": "Model Compression Techniques",
+        "domain": "Deep Learning",
+        "novice_prompt": "What is model compression and why do we use it in AI?",
+        "expert_prompt": "Investigate strategies such as pruning, quantization, and knowledge distillation to optimize model performance while maintaining accuracy."
+    },
+    {
+        "topic": "Self-supervised Learning",
+        "domain": "Machine Learning",
+        "novice_prompt": "What is self-supervised learning and how can it help with training AI models?",
+        "expert_prompt": "Explore the theoretical frameworks and practical methodologies underlying self-supervised learning in representation learning."
+    },
+    {
+        "topic": "Knowledge Graphs",
+        "domain": "Information Retrieval",
+        "novice_prompt": "What is a knowledge graph and how is it used in AI?",
+        "expert_prompt": "Examine the role of knowledge graphs in modern AI systems, including their construction, querying, and application in various domains."
+    },
+    {
+        "topic": "Data Drift",
+        "domain": "Machine Learning Operations",
+        "novice_prompt": "What is data drift and why should we be concerned about it?",
+        "expert_prompt": "Evaluate the detection methods and corrective measures for data drift in deploying machine learning models in production."
+    },
+    {
+        "topic": "Adversarial Machine Learning",
+        "domain": "Security in AI",
+        "novice_prompt": "What are adversarial attacks on machine learning models?",
+        "expert_prompt": "Discuss the strategies for developing robust machine learning models against adversarial attacks and their implications for security."
+    },
+    {
+        "topic": "Graph Neural Networks",
+        "domain": "Deep Learning",
+        "novice_prompt": "What are graph neural networks and what do they do?",
+        "expert_prompt": "Analyze the mathematical foundations and applications of graph neural networks in various domains, including social network analysis."
+    },
+    {
+        "topic": "Causal Inference in AI",
+        "domain": "Statistics",
+        "novice_prompt": "What is causal inference and how does it relate to AI?",
+        "expert_prompt": "Examine the causal models and their significance in understanding the cause-effect relationships within machine learning systems."
+    },
+    {
+        "topic": "Federated Learning",
+        "domain": "Machine Learning",
+        "novice_prompt": "What is federated learning and how does it protect privacy?",
+        "expert_prompt": "Discuss the technical architecture of federated learning systems and its challenges in maintaining model accuracy and privacy."
+    },
+    {
+        "topic": "Temporal Logic in AI",
+        "domain": "AI Theory",
+        "novice_prompt": "What is temporal logic and how is it related to AI?",
+        "expert_prompt": "Investigate the significance of temporal logic in the design of AI systems, focusing on formal verification and specification."
+    },
+    {
+        "topic": "Bias in Machine Learning",
+        "domain": "Data Ethics",
+        "novice_prompt": "What does it mean for a machine learning model to be biased?",
+        "expert_prompt": "Examine the sources of bias in machine learning algorithms and propose techniques for mitigation and fairer outcomes."
+    },
+    {
+        "topic": "Time Series Forecasting",
+        "domain": "Data Science",
+        "novice_prompt": "What is time series forecasting and what tools do we use?",
+        "expert_prompt": "Analyze the methodologies for time series forecasting and evaluate their performance on diverse datasets."
+    },
+    {
+        "topic": "Human-in-the-Loop Machine Learning",
+        "domain": "Collaborative AI",
+        "novice_prompt": "What is human-in-the-loop machine learning and why is it important?",
+        "expert_prompt": "Discuss the workflow integration of human feedback in machine learning systems and its influence on model performance."
+    },
+    {
+        "topic": "Multi-modal Learning",
+        "domain": "Neuroscience-inspired AI",
+        "novice_prompt": "What is multi-modal learning and where is it applied?",
+        "expert_prompt": "Evaluate the learning algorithms that integrate multiple data modalities and their implications for enhancing model robustness."
+    },
+    {
+        "topic": "Hyperparameter Optimization",
+        "domain": "Machine Learning",
+        "novice_prompt": "What are hyperparameters in machine learning and how do we optimize them?",
+        "expert_prompt": "Examine the various techniques for hyperparameter optimization, including grid search, random search, and Bayesian optimization."
+    },
+    {
+        "topic": "Impacts of Climate Change on ML",
+        "domain": "Sustainable AI",
+        "novice_prompt": "How is climate change affecting machine learning models?",
+        "expert_prompt": "Analyze the risks and opportunities for machine learning in mitigating the impacts of climate change through innovative solutions."
+    },
+    {
+        "topic": "Interactive Machine Learning",
+        "domain": "User Interface Design",
+        "novice_prompt": "What is interactive machine learning and how does it work?",
+        "expert_prompt": "Explore user engagement models in interactive machine learning systems and their implications for user experience and model accuracy."
+    },
+    {
+        "topic": "Bioinformatics and AI",
+        "domain": "Healthcare",
+        "novice_prompt": "How can AI be used in the field of bioinformatics?",
+        "expert_prompt": "Discuss the integration of AI tools in bioinformatics research, focusing on genomics, proteomics, and personalized medicine."
+    },
+    {
+        "topic": "Natural Language Generation",
+        "domain": "Natural Language Processing",
+        "novice_prompt": "What is natural language generation (NLG) and how is it different from other NLP tasks?",
+        "expert_prompt": "Evaluate NLG systems' architectures and their application in real-time content generation across various industries."
+    },
+    {
+        "topic": "Personalization Algorithms",
+        "domain": "Recommendation Systems",
+        "novice_prompt": "What do we mean by personalization in technology and why is it useful?",
+        "expert_prompt": "Analyze the algorithms underpinning personalization, including collaborative filtering and content-based approaches, to drive user engagement."
+    },
+    {
+        "topic": "Neural Network Distillation",
+        "domain": "Machine Learning",
+        "novice_prompt": "What is neural network distillation in simple terms?",
+        "expert_prompt": "Explain the theoretical foundations and practical implications of neural network distillation for model compression."
+    },
+    {
+        "topic": "Feature Attribution Techniques",
+        "domain": "Interpretability",
+        "novice_prompt": "How do we find out which features are important for a model's predictions?",
+        "expert_prompt": "Discuss the various feature attribution techniques, their mathematical formulations, and applicability across different model architectures."
+    },
+    {
+        "topic": "Adversarial Robustness",
+        "domain": "Security in AI",
+        "novice_prompt": "What does it mean for an AI model to be robust against adversarial attacks?",
+        "expert_prompt": "Analyze the methods for evaluating adversarial robustness and the theoretical limits of current defense mechanisms."
+    },
+    {
+        "topic": "Latent Space Interpolations",
+        "domain": "Generative Models",
+        "novice_prompt": "What is a latent space and how does it help in generating new data?",
+        "expert_prompt": "Explore the implications of latent space interpolations in generative models and their effect on emergent properties."
+    },
+    {
+        "topic": "Layer-wise Relevance Propagation",
+        "domain": "Interpretability",
+        "novice_prompt": "How can we understand what each layer in a neural network contributes to a decision?",
+        "expert_prompt": "Examine the Layer-wise Relevance Propagation method and its computational complexities in deep learning interpretability."
+    },
+    {
+        "topic": "Hyperparameter Optimization",
+        "domain": "Machine Learning",
+        "novice_prompt": "Why do we need to adjust settings for our machine learning models?",
+        "expert_prompt": "Detail the strategies and algorithms for hyperparameter optimization in high-dimensional spaces, focusing on Bayesian approaches."
+    },
+    {
+        "topic": "Causal Inference in AI",
+        "domain": "Statistics",
+        "novice_prompt": "How can AI help us understand cause and effect?",
+        "expert_prompt": "Discuss the challenges and methodologies in applying causal inference techniques to AI systems and their interpretability."
+    },
+    {
+        "topic": "Neuro-symbolic Learning",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "What is the idea behind combining traditional programming with neural networks?",
+        "expert_prompt": "Analyze the role of neuro-symbolic learning in bridging the gap between neural networks and symbolic reasoning frameworks."
+    },
+    {
+        "topic": "Explaining Black-box Models",
+        "domain": "Interpretability",
+        "novice_prompt": "Why is it hard to understand how some AI models make decisions?",
+        "expert_prompt": "Evaluate the methodologies employed to interpret black-box models and their effectiveness across various problem domains."
+    },
+    {
+        "topic": "Attention Mechanisms",
+        "domain": "Deep Learning",
+        "novice_prompt": "What do we mean when we say a model is paying 'attention'?",
+        "expert_prompt": "Discuss how attention mechanisms enhance model performance and interpretability, particularly in transformer architectures."
+    },
+    {
+        "topic": "Data Drift Detection",
+        "domain": "Machine Learning Operations",
+        "novice_prompt": "Why is it important to monitor changes in the data that a model uses?",
+        "expert_prompt": "Examine the statistical methods for detecting data drift and its implications on model performance and maintenance."
+    },
+    {
+        "topic": "Empirical Risk Minimization",
+        "domain": "Theoretical Foundations",
+        "novice_prompt": "What is the concept behind minimizing risk in machine learning?",
+        "expert_prompt": "Discuss the assumptions and limitations of empirical risk minimization in approximating the true risk in a given distribution."
+    },
+    {
+        "topic": "Generative Adversarial Networks (GANs) Explained",
+        "domain": "Machine Learning",
+        "novice_prompt": "How do GANs create realistic images or data?",
+        "expert_prompt": "Explore the architecture and training dynamics of GANs, focusing on convergence issues and instability in training."
+    },
+    {
+        "topic": "Memory Networks",
+        "domain": "Deep Learning",
+        "novice_prompt": "What is a memory network and how does it remember things?",
+        "expert_prompt": "Analyze the architecture of memory networks and their applications in improving long-term dependencies in sequential tasks."
+    },
+    {
+        "topic": "Gradient Visualization",
+        "domain": "Interpretability",
+        "novice_prompt": "How can we visualize what our model is learning?",
+        "expert_prompt": "Assess the techniques and tools for gradient visualization and their impact on diagnosing model behavior and performance."
+    },
+    {
+        "topic": "Federated Learning",
+        "domain": "Privacy in AI",
+        "novice_prompt": "What is federated learning and how does it keep data private?",
+        "expert_prompt": "Discuss the communication and optimization challenges in federated learning and the trade-offs between privacy and performance."
+    },
+    {
+        "topic": "Multimodal Learning",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "What does it mean for an AI model to understand different types of data like text and images?",
+        "expert_prompt": "Examine the architectural considerations and benefits of multimodal learning frameworks for complex problem-solving."
+    },
+    {
+        "topic": "Out-of-Distribution Detection",
+        "domain": "Machine Learning",
+        "novice_prompt": "How can we tell if data is different from what our model was trained on?",
+        "expert_prompt": "Discuss statistical techniques for out-of-distribution detection and their importance in ensuring model robustness."
+    },
+    {
+        "topic": "Explainability in Reinforcement Learning",
+        "domain": "Reinforcement Learning",
+        "novice_prompt": "How can we understand the decisions made by a reinforcement learning agent?",
+        "expert_prompt": "Analyze the interpretability challenges in reinforcement learning and methods proposed for making agent behaviors transparent."
+    },
+    {
+        "topic": "Model-Agnostic Interpretability",
+        "domain": "Interpretability",
+        "novice_prompt": "How can we interpret different machine learning models similarly?",
+        "expert_prompt": "Examine model-agnostic techniques for interpretability, their computational efficiency, and trade-offs in varying contexts."
+    },
+    {
+        "topic": "Synthetic Data Generation",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "What is synthetic data and when might we want to use it?",
+        "expert_prompt": "Evaluate the methods for generating synthetic data and the implications for model training and validation."
+    },
+    {
+        "topic": "Self-Supervised Learning",
+        "domain": "Machine Learning",
+        "novice_prompt": "What is self-supervised learning and how does it learn from unlabeled data?",
+        "expert_prompt": "Discuss the advances in self-supervised learning paradigms and their impact on representation learning."
+    },
+    {
+        "topic": "Knowledge Graphs in AI",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "What are knowledge graphs and how do they help AI understand information?",
+        "expert_prompt": "Explore the construction and utilization of knowledge graphs in enhancing reasoning and information retrieval in AI systems."
+    },
+    {
+        "topic": "Transfer Learning",
+        "domain": "Machine Learning",
+        "novice_prompt": "How can we use what a model has learned on one task for another task?",
+        "expert_prompt": "Examine the theoretical underpinnings of transfer learning, including domain adaptation strategies and feature reuse."
+    },
+    {
+        "topic": "Reinforcement Learning in Practice",
+        "domain": "Reinforcement Learning",
+        "novice_prompt": "How do agents learn from their environment in reinforcement learning?",
+        "expert_prompt": "Analyze the application of reinforcement learning in real-world scenarios, highlighting deployment challenges and optimization techniques."
+    },
+    {
+        "topic": "Visualization of Activation Maps",
+        "domain": "Interpretability",
+        "novice_prompt": "What are activation maps in neural networks and how are they useful?",
+        "expert_prompt": "Discuss advanced techniques in visualizing activation maps and their role in understanding feature extraction processes in deep networks."
+    },
+    {
+        "topic": "Interactive Machine Learning",
+        "domain": "Human-Computer Interaction",
+        "novice_prompt": "What does it mean for machines to learn interactively from users?",
+        "expert_prompt": "Explore the frameworks for interactive machine learning and the methodologies for human-in-the-loop system designs."
+    },
+    {
+        "topic": "Role of Regularization in Deep Learning",
+        "domain": "Machine Learning",
+        "novice_prompt": "Why do some AI models need regularization?",
+        "expert_prompt": "Analyze the significance of regularization techniques in controlling overfitting and their mathematical foundations."
+    },
+    {
+        "topic": "Multi-task Learning",
+        "domain": "Machine Learning",
+        "novice_prompt": "What does it mean for a model to learn multiple tasks at once?",
+        "expert_prompt": "Evaluate the training strategies and potential benefits of multi-task learning in parameter sharing and efficiency."
+    },
+    {
+        "topic": "Cross-Validation Techniques",
+        "domain": "Statistics",
+        "novice_prompt": "What is cross-validation and why is it important for models?",
+        "expert_prompt": "Discuss the theoretical underpinning of various cross-validation techniques and their effects on bias and variance in model evaluation."
+    },
+    {
+        "topic": "Active Learning Frameworks",
+        "domain": "Machine Learning",
+        "novice_prompt": "How does active learning help improve model training?",
+        "expert_prompt": "Inspect the theoretical foundations and practical implementations of active learning frameworks for data-efficient model training."
+    },
+    {
+        "topic": "Explainable AI in Healthcare",
+        "domain": "AI Applications",
+        "novice_prompt": "How can AI's decisions in healthcare be made understandable?",
+        "expert_prompt": "Analyze the ethical implications and methodologies of implementing explainable AI in healthcare technology and patient care."
+    },
+    {
+        "topic": "Noisy Input Data Handling",
+        "domain": "Machine Learning",
+        "novice_prompt": "What should we do when our input data has errors?",
+        "expert_prompt": "Assess various methods to handle noisy input data in machine learning, focusing on robustness and error mitigation strategies."
+    },
+    {
+        "topic": "Explainability for MLOps",
+        "domain": "Machine Learning Operations",
+        "novice_prompt": "How can we ensure our AI models are understandable in production?",
+        "expert_prompt": "Evaluate the frameworks and practices to achieve explainability in MLOps, focusing on deployment and continuous integration environments."
+    },
+    {
+        "topic": "Quantum Neural Networks",
+        "domain": "Quantum Computing",
+        "novice_prompt": "What would a neural network look like if it used quantum bits instead of regular bits?",
+        "expert_prompt": "Discuss the implications of entanglement and superposition in training quantum neural networks."
+    },
+    {
+        "topic": "Metamaterials for AI Sensors",
+        "domain": "Materials Science",
+        "novice_prompt": "How can special materials improve the sensors used in AI systems?",
+        "expert_prompt": "Examine the role of electromagnetic properties in designing metamaterials for enhanced sensor capabilities in AI applications."
+    },
+    {
+        "topic": "Neural Encoding in Synthetic Biology",
+        "domain": "Biology/Computational Biology",
+        "novice_prompt": "How can we use coding principles to understand and manipulate genetic materials?",
+        "expert_prompt": "Analyze the parallels between neural encoding and genetic circuits in synthetic biology for encoding information."
+    },
+    {
+        "topic": "Cognitive Load in Human-Computer Interaction",
+        "domain": "Human-Computer Interaction",
+        "novice_prompt": "What makes it hard for people to use certain computer interfaces?",
+        "expert_prompt": "Evaluate the impact of cognitive load theory on the design of user interfaces in complex software applications."
+    },
+    {
+        "topic": "Interpretable Reinforcement Learning",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "How can we understand the decisions made by AI when it learns by trial and error?",
+        "expert_prompt": "Investigate the methods for enhancing interpretability in reinforcement learning policies and their importance for safety in autonomous systems."
+    },
+    {
+        "topic": "Ethical AI Algorithms",
+        "domain": "Ethics in AI",
+        "novice_prompt": "What are fair ways to create AI systems that make decisions, like hiring or lending?",
+        "expert_prompt": "Critique various algorithmic approaches to embedding ethical considerations in AI decision-making frameworks."
+    },
+    {
+        "topic": "Privacy-Preserving Machine Learning",
+        "domain": "Data Science",
+        "novice_prompt": "How can we train machine learning models without sharing sensitive data?",
+        "expert_prompt": "Discuss differential privacy mechanisms and their effectiveness in safeguarding individual privacy during federated learning."
+    },
+    {
+        "topic": "Digital Twins in Manufacturing",
+        "domain": "Engineering",
+        "novice_prompt": "What is a digital twin and how can it help improve manufacturing processes?",
+        "expert_prompt": "Evaluate the role of digital twins in predictive maintenance and process optimization in Industry 4.0."
+    },
+    {
+        "topic": "Augmented Reality in Education",
+        "domain": "Education Technology",
+        "novice_prompt": "How can wearing special glasses help students learn better?",
+        "expert_prompt": "Analyze the effectiveness of AR applications in enhancing experiential learning outcomes in STEM education."
+    },
+    {
+        "topic": "Generative Adversarial Networks in Art",
+        "domain": "Creative AI",
+        "novice_prompt": "How can computers create art using different styles and techniques?",
+        "expert_prompt": "Explore the tension between creativity and originality in works generated by GANs and the implications for artists."
+    },
+    {
+        "topic": "Swarm Intelligence in Disaster Response",
+        "domain": "Robotics",
+        "novice_prompt": "How can small robots work together to help in emergencies?",
+        "expert_prompt": "Investigate the algorithms governing swarm intelligence and their application in coordinating robotic teams for search and rescue operations."
+    },
+    {
+        "topic": "Bioinformatics and Personalized Medicine",
+        "domain": "Biomedical Science",
+        "novice_prompt": "How can understanding our genes help doctors give better treatments?",
+        "expert_prompt": "Examine the advancements in bioinformatics techniques that facilitate the tailoring of therapies based on genomic data."
+    },
+    {
+        "topic": "Emotion Recognition Systems",
+        "domain": "Emotion AI",
+        "novice_prompt": "How can computers tell how we are feeling just by looking at our face?",
+        "expert_prompt": "Critically analyze the challenges and ethical implications of implementing accurate emotion recognition in real-world applications."
+    },
+    {
+        "topic": "Computational Creativity",
+        "domain": "Artificial Intelligence",
+        "novice_prompt": "Can computers really come up with new ideas and songs, like humans?",
+        "expert_prompt": "Discuss the frameworks that define computational creativity and their philosophical implications on the nature of creativity."
+    },
+    {
+        "topic": "Haptic Feedback in Virtual Reality",
+        "domain": "Interaction Design",
+        "novice_prompt": "How can we make virtual worlds feel more real with touch?",
+        "expert_prompt": "Examine the technological advancements that enhance haptic feedback systems in VR applications for immersive experiences."
+    },
+    {
+        "topic": "Graph Neural Networks",
+        "domain": "Machine Learning",
+        "novice_prompt": "What are graph neural networks and how do they work?",
+        "expert_prompt": "Investigate the structural and theoretical properties that enable graph neural networks to learn from non-Euclidean data distributions."
+    },
+    {
+        "topic": "Social Robotics",
+        "domain": "Robotics",
+        "novice_prompt": "What are robots that can interact with humans like friends or helpers?",
+        "expert_prompt": "Analyze the psychological and social implications of integrating social robots into everyday environments."
+    },
+    {
+        "topic": "Adaptive Learning Systems",
+        "domain": "Educational Technology",
+        "novice_prompt": "How can learning apps change based on how you learn best?",
+        "expert_prompt": "Examine the algorithms behind adaptive learning systems and their effectiveness in optimizing personalized education experiences."
+    },
+    {
+        "topic": "Decentralized Autonomous Organizations (DAOs)",
+        "domain": "Blockchain Technology",
+        "novice_prompt": "What are DAOs and how can they work together without a leader?",
+        "expert_prompt": "Critically assess the governance structures and decision-making processes within DAOs utilizing blockchain technology."
+    },
+    {
+        "topic": "Algorithmic Trading Strategies",
+        "domain": "Finance",
+        "novice_prompt": "How can computer programs help people make money in the stock market?",
+        "expert_prompt": "Explore the complexities involved in developing and optimizing high-frequency trading algorithms and their market impact."
+    },
+    {
+        "topic": "Wearable Health Technology",
+        "domain": "Health Tech",
+        "novice_prompt": "How do devices we wear help us track our health?",
+        "expert_prompt": "Evaluate the data privacy concerns associated with wearable health technology and their implications for user acceptance."
+    },
+    {
+        "topic": "Natural Language Processing in Content Moderation",
+        "domain": "AI Ethics",
+        "novice_prompt": "How do computers understand and filter things we say online?",
+        "expert_prompt": "Analyze the ethical challenges in utilizing NLP for automated content moderation and its potential biases."
+    },
+    {
+        "topic": "Edge Computing in IoT",
+        "domain": "Computer Science",
+        "novice_prompt": "How can processing data closer to where it is generated help devices work faster?",
+        "expert_prompt": "Discuss the architectural challenges and advantages of implementing edge computing solutions in IoT ecosystems."
+    },
+    {
+        "topic": "Psychometric AI Models",
+        "domain": "Psychology",
+        "novice_prompt": "How can we teach computers to understand our personalities?",
+        "expert_prompt": "Investigate the validity of psychometric measurements in training AI models for advanced predictive analytics in human behavior."
+    },
+    {
+        "topic": "Drone Swarm Navigation",
+        "domain": "Robotics",
+        "novice_prompt": "How can a group of drones work together to find their way?",
+        "expert_prompt": "Explore the algorithms facilitating decentralized communication and cooperative navigation within drone swarms."
+    },
+    {
+        "topic": "AI and Climate Change Modeling",
+        "domain": "Environmental Science",
+        "novice_prompt": "How can AI help us understand and fight climate change?",
+        "expert_prompt": "Discuss the integration of AI techniques in climate modeling for predictive analytics and to inform policy decisions."
+    },
+    {
+        "topic": "Interdisciplinary Collaboration in STEM",
+        "domain": "Science and Technology",
+        "novice_prompt": "How do people from different scientific fields work together on important problems?",
+        "expert_prompt": "Analyze the benefits and challenges of interdisciplinary collaboration in advancing complex STEM projects."
+    },
+    {
+        "topic": "The Role of Serendipity in Innovation",
+        "domain": "Innovation Studies",
+        "novice_prompt": "How can unexpected discoveries lead to new inventions?",
+        "expert_prompt": "Critique the impact of serendipitous events in fostering innovation and their implications for structured research methodologies."
+    },
+    {
+        "topic": "Synthetic Data Generation",
+        "domain": "Data Science",
+        "novice_prompt": "What is synthetic data, and why might we need it for training models?",
+        "expert_prompt": "Evaluate the advantages and limitations of synthetic data generation in improving machine learning model performance while addressing ethical considerations."
+    },
+    {
+        "topic": "Resilient Network Design",
+        "domain": "Computer Networking",
+        "novice_prompt": "How can we make networks stronger against failures and attacks?",
+        "expert_prompt": "Analyze advanced topological strategies and redundancy mechanisms that enhance the resilience of communication networks."
+    },
+    {
+        "topic": "Nanotechnology in Medicine",
+        "domain": "Nanotechnology",
+        "novice_prompt": "What are tiny robots that can help us fight diseases?",
+        "expert_prompt": "Examine the current developments in nanotechnology for drug delivery systems and their transformative potential for personalized medicine."
+    },
+    {
+        "topic": "Trustworthy AI Systems",
+        "domain": "AI Governance",
+        "novice_prompt": "How can we make sure AI systems are reliable and do what we expect?",
+        "expert_prompt": "Discuss the frameworks and metrics necessary for establishing trustworthiness and accountability in AI systems."
+    },
+    {
+        "topic": "Flexible Manufacturing Systems",
+        "domain": "Industrial Engineering",
+        "novice_prompt": "How can factories adapt quickly to changes in product design or demand?",
+        "expert_prompt": "Analyze the role of automation and adaptive algorithms in enhancing the flexibility and efficiency of modern manufacturing systems."
+    },
+    {
+        "topic": "Sustainable Urban Planning with AI",
+        "domain": "Urban Studies",
+        "novice_prompt": "How can we use technology to build better cities that are friendly to the environment?",
+        "expert_prompt": "Examine the application of AI in optimizing resource allocation and urban design for sustainability in metropolitan areas."
+    },
+    {
+        "topic": "Smart Contracts on Blockchain",
+        "domain": "Blockchain Technology",
+        "novice_prompt": "What are smart contracts and how do they work automatically?",
+        "expert_prompt": "Analyze the advantages and potential vulnerabilities of using smart contracts for transactional automation in decentralized applications."
+    }
+]

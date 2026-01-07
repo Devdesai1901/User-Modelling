@@ -1,0 +1,12 @@
+{
+  "layer": 20,
+  "n_expert": 164,
+  "n_novice": 164,
+  "d": 3584,
+  "cos_v_dom_vs_probe_w": 0.7619891166687012,
+  "proj_mean_expert": 13.31656551361084,
+  "proj_mean_novice": 1.9793717861175537,
+  "proj_std_expert": 5.92185640335083,
+  "proj_std_novice": 5.334037780761719,
+  "separation_means_over_pooled_std": 2.0144457817077637
+}
